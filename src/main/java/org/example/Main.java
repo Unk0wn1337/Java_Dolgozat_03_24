@@ -38,6 +38,7 @@ public class Main {
     private void statisztika() {
         String fn = "statisztika.txt";
         try{
+
             Files.write(Path.of(fn, String.valueOf(getTargyakKreditSzerint())));
        } catch (IOException e){
           System.err.println(e);

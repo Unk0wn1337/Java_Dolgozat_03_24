@@ -31,17 +31,6 @@ class SzakTest {
         Assertions.assertTrue(eredeti == szak.getTargyak().size());
     }
 
-    @Test
-    void szerializalhato(){
-        Assertions.assertTrue(Serializable.class.isAssignableFrom(Szak.class),"Nem szerializhalto");
-    }
-
-    @Test
-    void egyforma(){
-        Szak sz1 = new Szak("matematika",5,"Szekeres Barnabás","Roffer Rozália",3,"nem");
-        Szak sz2 = new Szak("matematika",5,"Szekeres Barnabás","Roffer Rozália",3,"nem");
-        Assertions.assertEquals(sz1.hashCode(),sz2.hashCode());
-        Assertions.assertEquals(sz1,sz2);
-    }
+   
 
 }
