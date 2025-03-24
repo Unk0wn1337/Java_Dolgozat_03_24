@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import java.io.Serializable;
 import java.util.List;
 
+// vége
 class SzakTest {
     Szak szak;
     @BeforeEach
